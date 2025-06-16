@@ -63,7 +63,7 @@ kubectl annotate ingress argocd-ingress -n argocd kubernetes.io/ingress.class=ng
 
 ## 6. Apontar o domínio no /etc/hosts
 ```bash
-sudo echo "127.0.0.1 argocd.localhost" | sudo tee -a /etc/hosts
+sudo echo "127.0.0.1 argocd.local" | sudo tee -a /etc/hosts
 ```
 
 ## 7. Teste
